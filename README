@@ -1,0 +1,13 @@
+\*\* Notes
+
+Exercise 03
+
+C++:
+
+In C++, you can explicitly choose to pass an object by value or by reference.
+By Value: A copy of the object is created. Changes to the copy do not affect the original.
+By Reference: No copy is made. Changes to the reference affect the original object.
+
+JavaScript:
+
+In JavaScript, objects are always passed by reference. When you pass an object to a function or assign it to a new variable, you're passing a reference to the original object, not a copy.

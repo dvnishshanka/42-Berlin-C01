@@ -12,6 +12,7 @@ int	main (void)
 
 	while (i < n)
 	{
+		std::cout << "Call announce on Zombie " << i << std::endl;
 		zombies[i].announce();
 		i ++;
 	}

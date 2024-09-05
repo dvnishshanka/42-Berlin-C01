@@ -1,6 +1,7 @@
+
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 COMPILER  = c++
-NAME = brain
+NAME = replace
 RM = rm -f
 SRC = main.cpp
 OBJS = $(SRC:.cpp=.o)
